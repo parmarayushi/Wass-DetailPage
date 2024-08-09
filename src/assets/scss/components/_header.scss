@@ -1,0 +1,65 @@
+.hero-section {
+  background: url("./../../../assets/images/hero-bg.jpg") no-repeat center
+    center/cover;
+  color: $white;
+  text-align: left;
+  padding-inline: 50px;
+  padding-block: 174px 32px;
+
+  .hero-text {
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      width: 517px;
+    }
+
+    p,
+    .text-header {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      width: 474px;
+    }
+
+    .text-header {
+      width: 363px;
+      font-size: 20px;
+      margin-bottom: 4px;
+      text-align: center;
+    }
+  }
+}
+
+.industry-section {
+  padding: 30px;
+  text-align: center;
+
+  .industries-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 80px;
+    }
+
+    h2 {
+      font-size: 40px;
+      color: $secondary;
+      margin-left: 4px;
+    }
+  }
+
+  .header-txt {
+    font-size: 40px;
+    color: $secondary;
+    padding-left: 71px;
+  }
+
+  p {
+    font-size: 1.2em;
+    margin-block: 20px;
+    padding-inline: 186px;
+    color: $subTextColor;
+    line-height: 32px;
+  }
+}

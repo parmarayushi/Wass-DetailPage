@@ -1,0 +1,25 @@
+.header {
+  background-color: $white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .navbar {
+    .nav-list {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      margin: 0;
+      padding: 0;
+
+      li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+      }
+    }
+  }
+}
